@@ -1,0 +1,3 @@
+from: jenkinsci/blueocean
+environment:
+  JAVA_OPTS: -Djenkins.install.runSetupWizard=false

@@ -1,0 +1,15 @@
+- name: Ensure /usr/share/jenkins/ref/init.groovy.d exists
+  file:
+    path: /usr/share/jenkins/ref/init.groovy.d
+    state: directory
+- copy:
+    src: security.groovy
+    dest: /usr/share/jenkins/ref/init.groovy.d/security.groovy
+- name: Ensure /usr/share/jenkins/ref exists
+  file:
+    path: /usr/share/jenkins/ref
+    state: directory
+- copy:
+    src: plugins.txt
+    dest: /usr/share/jenkins/ref/plugins.txt
+- shell: /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt

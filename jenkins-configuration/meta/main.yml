@@ -1,0 +1,50 @@
+galaxy_info:
+  author: Judy OBrien
+  description: Configure Jenkins Container with Plugins for GitHub and Sonarqube and User
+  company: Student
+
+  
+  issue_tracker_url: https://github.com/judyobrienie/ansible-jenkins/issues  
+  
+ 
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 2.0 
+
+  # Optionally specify the branch Galaxy will use when accessing the GitHub
+  # repo for this role. During role install, if no tags are available,
+  # Galaxy will use this branch. During import Galaxy will access files on
+  # this branch. If travis integration is cofigured, only notification for this
+  # branch will be accepted. Otherwise, in all cases, the repo's default branch
+  # (usually master) will be used.
+  #github_branch:
+
+  #
+  # Below are all platforms currently available. Just uncomment
+  # the ones that apply to your role. If you don't see your
+  # platform on this list, let us know and we'll get it added!
+  #
+  platforms:
+  - name: EL
+    versions:
+    - 6
+    - 7
+  
+  - name: Fedora
+    versions:
+     - all
+     - 27
+ 
+  
+ 
+
+  galaxy_tags: 
+    - 
+    - ansible-jenkins
+    - jenkins-configuration
+    - jenkins-sonarqube
+ 
+dependencies: available in github repo
+  security.groovy
+  plugins.txt
+
