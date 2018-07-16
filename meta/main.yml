@@ -38,10 +38,8 @@ galaxy_info:
   
  
 
-  galaxy_tags: 
-    - ansible-jenkins
-    - jenkins-configuration
-    - jenkins-sonarqube
+  galaxy_tags: [ansible-jenkins]
+
  
 dependencies: [available in github reposecurity.groovy
   plugins.txt
