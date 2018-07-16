@@ -38,10 +38,10 @@ galaxy_info:
   
  
 
-  galaxy_tags: [ansible-jenkins]
+  galaxy_tags: [jenkins]
 
  
-dependencies: [available in github reposecurity.groovy
+  dependencies: [available in github reposecurity.groovy
   plugins.txt
-]
+  ]
   
