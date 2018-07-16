@@ -7,7 +7,7 @@ galaxy_info:
   issue_tracker_url: https://github.com/judyobrienie/ansible-jenkins/issues  
   
  
-  license: license (GPLv2, CC-BY, etc)
+    license: "license (BSD, MIT)"
 
   min_ansible_version: 2.0 
 
