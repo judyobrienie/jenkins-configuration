@@ -44,7 +44,7 @@ galaxy_info:
     - jenkins-configuration
     - jenkins-sonarqube
  
-dependencies: available in github repo
+dependencies: [available in github repo]
   security.groovy
   plugins.txt
 
